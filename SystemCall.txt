@@ -1,0 +1,15 @@
+Execve:
+The execve() system call function is used to execute a binary executable or a script.
+The function returns nothing on success and -1 on error.
+
+The first parameter must be the path of a binary executable or a script.
+The second must be an array of pointers on a character (char *myArray[]), and the last pointer must be set to NULL.
+The third parameter must be an environment.
+
+Eg. 
+
+
+
+
+Ref:
+https://www.badprog.com/unix-gnu-linux-system-calls-using-execve
